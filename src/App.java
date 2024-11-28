@@ -80,5 +80,9 @@ public class App {
             }
             System.out.println(j);
         }
+
+        Main newObj = new Main(2000, "Bolero");
+        newObj.x = 100;
+        System.out.println(newObj.x + " Hello");
     }
 }
